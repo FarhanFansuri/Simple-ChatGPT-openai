@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+*{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color:rgb(215, 214, 212);
+    display: flex;
+}
+h1{
+    font-size: 33px;
+    font-weight: 600;
+    padding: 200px 0;
+}
+
+.side-bar{
+    padding-bottom: 1%;
+    display: flex;
+    height: 100vh;
+    width: 25vw;
+    background-color: aliceblue;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.side-bar button{
+    margin-top: 3%;
+    width: 95%;
+    height: 40px;
+}
+
+.main{
+    height: 100vh;
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1%;
+}
+
+.info{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input{
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+    width: 60vw;
+    height: 30px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0);
+}
+input:focus{
+    outline: none;
+}
+
+.bottom-section{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.nav{
+    margin-bottom: 2%;
+}
+
+#output{
+    padding: 0 2%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
